@@ -1,0 +1,33 @@
+В следующем примере создается процедура, которая указывает выходной параметр @currency_cursor, используя тип данных cursor. Процедура затем будет вызвана из пакета.
+Сначала создайте процедуру, которая объявляет и затем открывает курсор в таблице Currency.
+
+USE WideWorldImporters;   
+GO  
+
+IF OBJECT_ID ( 'dbo.uspCitiesCursor', 'P' ) IS NOT NULL  
+    DROP PROCEDURE dbo.uspCitiesCursor;  
+GO  
+CREATE PROCEDURE dbo.uspCitiesCursor   
+    @CityCursor CURSOR VARYING OUTPUT  
+AS  
+    SET NOCOUNT ON;  
+    SET @CityCursor = CURSOR  
+    FORWARD_ONLY STATIC FOR  
+      SELECT CityID, CityName  
+      FROM Application.Cities;  
+    OPEN @CityCursor;  
+GO  
+  
+Затем выполните пакет, который объявляет локальную переменную курсора, выполняет процедуру, присваивающую курсор локальной переменной, и затем выбирает строки из курсора.
+SQL 
+USE WideWorldImporters;     
+GO  
+DECLARE @MyCursor CURSOR;  
+EXEC dbo.uspCitiesCursor @CityCursor = @MyCursor OUTPUT;  
+WHILE (@@FETCH_STATUS = 0)  
+BEGIN;  
+     FETCH NEXT FROM @MyCursor;  
+END;  
+CLOSE @MyCursor;  
+DEALLOCATE @MyCursor;  
+GO    

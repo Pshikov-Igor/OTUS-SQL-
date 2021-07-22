@@ -1,0 +1,10 @@
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.dacpac
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.dll
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.pdb
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.sqlprojAssemblyReference.cache
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\obj\Debug\Model.xml
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\obj\Debug\refactor.xml
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\obj\Debug\postdeploy.sql
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\obj\Debug\predeploy.sql
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.dll
+I:\Обучение\OTUS\Материалы к занятиям\13_Создание и использование CLR. ДЗ\MyProjects\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.pdb
